@@ -9,6 +9,8 @@ import { ProductsComponent } from './component/products/products.component';
 import { ProductComponent } from './component/product/product.component';
 import { NavComponent } from './component/nav/nav.component';
 import { ImgComponent } from './component/img/img.component';
+import { ReversePipe } from './pipes/reverse.pipe';
+import { HighlightDirective } from './directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ImgComponent } from './component/img/img.component';
     ProductsComponent,
     ProductComponent,
     NavComponent,
-    ImgComponent
+    ImgComponent,
+    ReversePipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
